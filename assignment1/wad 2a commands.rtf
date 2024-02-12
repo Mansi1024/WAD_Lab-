@@ -1,0 +1,268 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fmodern\fprq1 Lucida Console;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red28\green168\blue0;\red177\green72\blue198;\red192\green160\blue0;\red0\green0\blue255;\red0\green168\blue154;\red212\green44\blue58;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs18\lang9 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://github.com/Mansi1024/test1.git }}{\fldrslt{https://github.com/Mansi1024/test1.git\ul0\cf0}}}}\f0\fs18\par
+Cloning into 'test1'...\par
+remote: Enumerating objects: 6, done.\par
+remote: Counting objects: 100% (6/6), done.\par
+remote: Compressing objects: 100% (3/3), done.\par
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0\par
+Receiving objects: 100% (6/6), done.\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder\par
+\cf0 $ git status\par
+fatal: not a git repository (or any of the parent directories): .git\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder\par
+\cf0 $ cd test1\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git status\par
+On branch main\par
+Your branch is up to date with 'origin/main'.\par
+\par
+Changes not staged for commit:\par
+  (use "git add <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        \cf6 modified:   file1\par
+\par
+\cf0 no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git add *\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git status\par
+On branch main\par
+Your branch is up to date with 'origin/main'.\par
+\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 modified:   file1\par
+\par
+\par
+Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git commit -m "I am modifing the file test1"\par
+Author identity unknown\par
+\par
+*** Please tell me who you are.\par
+\par
+Run\par
+\par
+  git config --global user.email "you@example.com"\par
+  git config --global user.name "Your Name"\par
+\par
+to set your account's default identity.\par
+Omit --global to set the identity only in this repository.\par
+\par
+fatal: unable to auto-detect email address (got 'Dell@DESKTOP-KPE8N36.(none)')\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git config user.email"nikammansi412@gmail.com"\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git commit -m "I am modifing the file test1"\par
+Author identity unknown\par
+\par
+*** Please tell me who you are.\par
+\par
+Run\par
+\par
+  git config --global user.email "you@example.com"\par
+  git config --global user.name "Your Name"\par
+\par
+to set your account's default identity.\par
+Omit --global to set the identity only in this repository.\par
+\par
+fatal: unable to auto-detect email address (got 'Dell@DESKTOP-KPE8N36.(none)')\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git config user.email "nikammansi412@gmail.com"\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git commit -m "I am modifing the file test1"\par
+[main a07d3b4] I am modifing the file test1\par
+ 1 file changed, 2 insertions(+)\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git status\par
+On branch main\par
+Your branch is ahead of 'origin/main' by 1 commit.\par
+  (use "git push" to publish your local commits)\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git push {{\field{\*\fldinst{HYPERLINK https://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@github.com/Mansi1024/test1.git }}{\fldrslt{https://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@github.com/Mansi1024/test1.git\ul0\cf0}}}}\f0\fs18\par
+Enumerating objects: 5, done.\par
+Counting objects: 100% (5/5), done.\par
+Delta compression using up to 8 threads\par
+Compressing objects: 100% (2/2), done.\par
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.\par
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Mansi1024/test1.git }}{\fldrslt{https://github.com/Mansi1024/test1.git\ul0\cf0}}}}\f0\fs18\par
+   cf60551..a07d3b4  main -> main\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git pull {{\field{\*\fldinst{HYPERLINK https://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@github.com/Mansi1024/test1.git }}{\fldrslt{https://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@github.com/Mansi1024/test1.git\ul0\cf0}}}}\f0\fs18\par
+remote: Enumerating objects: 5, done.\par
+remote: Counting objects: 100% (5/5), done.\par
+remote: Compressing objects: 100% (3/3), done.\par
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+Unpacking objects: 100% (3/3), 731 bytes | 9.00 KiB/s, done.\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/Mansi1024/test1 }}{\fldrslt{https://github.com/Mansi1024/test1\ul0\cf0}}}}\f0\fs18\par
+ * branch            HEAD       -> FETCH_HEAD\par
+Updating a07d3b4..d17426c\par
+Fast-forward\par
+ file1 | 2 \cf1 +\cf6 -\par
+\cf0  1 file changed, 1 insertion(+), 1 deletion(-)\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git status\par
+On branch main\par
+Your branch is ahead of 'origin/main' by 2 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git branch\par
+* \cf1 main\par
+\par
+Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git branch neew\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (main)\par
+\cf0 $ git checkout neew\par
+Switched to branch 'neew'\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (neew)\par
+\cf0 $ git checkout -b new\par
+Switched to a new branch 'new'\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git merge main\par
+Already up to date.\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git merge neew\par
+Already up to date.\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch -a\par
+  main\par
+  neew\par
+* \cf1 new\par
+\cf0   \cf6 remotes/origin/HEAD\cf0  -> origin/main\par
+  \cf6 remotes/origin/main\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branc -r\par
+git: 'branc' is not a git command. See 'git --help'.\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch -r\par
+  \cf6 origin/HEAD\cf0  -> origin/main\par
+  \cf6 origin/main\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch -v\par
+  main d17426c [ahead 2] Update file1\par
+  neew d17426c Update file1\par
+* \cf1 new \cf0  d17426c Update file1\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch --merged\par
+  main\par
+  neew\par
+* \cf1 new\par
+\par
+Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch --no-merged\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $  git branch\par
+master\par
+* new\par
+  main\par
+  neew\par
+* \cf1 new\par
+\cf0 bash: master: command not found\par
+./README.md: line 3: syntax error: unexpected end of file\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $ git branch neew * new\par
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]\par
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]\par
+   or: git branch [<options>] [-l] [<pattern>...]\par
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...\par
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>\par
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>\par
+   or: git branch [<options>] [-r | -a] [--points-at]\par
+   or: git branch [<options>] [-r | -a] [--format]\par
+\par
+Generic options\par
+    -v, --[no-]verbose    show hash and subject, give twice for upstream branch\par
+    -q, --[no-]quiet      suppress informational messages\par
+    -t, --[no-]track[=(direct|inherit)]\par
+                          set branch tracking configuration\par
+    -u, --[no-]set-upstream-to <upstream>\par
+                          change the upstream info\par
+    --[no-]unset-upstream unset the upstream info\par
+    --[no-]color[=<when>] use colored output\par
+    -r, --remotes         act on remote-tracking branches\par
+    --contains <commit>   print only branches that contain the commit\par
+    --no-contains <commit>\par
+                          print only branches that don't contain the commit\par
+    --[no-]abbrev[=<n>]   use <n> digits to display object names\par
+\par
+Specific git-branch actions:\par
+    -a, --all             list both remote-tracking and local branches\par
+    -d, --[no-]delete     delete fully merged branch\par
+    -D                    delete branch (even if not merged)\par
+    -m, --[no-]move       move/rename a branch and its reflog\par
+    -M                    move/rename a branch, even if target exists\par
+    --[no-]omit-empty     do not output a newline after empty formatted refs\par
+    -c, --[no-]copy       copy a branch and its reflog\par
+    -C                    copy a branch, even if target exists\par
+    -l, --[no-]list       list branch names\par
+    --[no-]show-current   show current branch name\par
+    --[no-]create-reflog  create the branch's reflog\par
+    --[no-]edit-description\par
+                          edit the description for the branch\par
+    -f, --[no-]force      force creation, move/rename, deletion\par
+    --merged <commit>     print only branches that are merged\par
+    --no-merged <commit>  print only branches that are not merged\par
+    --[no-]column[=<style>]\par
+                          list branches in columns\par
+    --[no-]sort <key>     field name to sort on\par
+    --[no-]points-at <object>\par
+                          print only branches of the object\par
+    -i, --[no-]ignore-case\par
+                          sorting and filtering are case insensitive\par
+    --[no-]recurse-submodules\par
+                          recurse through submodules\par
+    --[no-]format <format>\par
+                          format to use for the output\par
+\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $  git checkout new\par
+Already on 'new'\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (new)\par
+\cf0 $  git checkout neew\par
+Switched to branch 'neew'\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (neew)\par
+\cf0 $  git branch -d new\par
+Deleted branch new (was d17426c).\par
+\par
+\cf1 Dell@DESKTOP-KPE8N36 \cf2 MINGW64 \cf3 /d/gitfolder/test1\cf5  (neew)\par
+\cf0 $\par
+\par
+\f1\fs22\par
+}
+ 
